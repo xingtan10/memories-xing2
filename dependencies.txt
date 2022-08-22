@@ -1,0 +1,13 @@
+npm i moment, 
+npm i react-router-dom@6.0.2, 
+npm i react-redux
+npm i jwt-decode
+npm i react-file-base64
+npm install @reduxjs/toolkit
+npm i redux-thunk
+npm i @material-ui/core --legacy-peer-deps
+npm i @material-ui/icons --legacy-peer-deps
+npm i react-google-login --legacy-peer-deps
+npm i @material-ui/lab --legacy-peer-deps
+npm i axios --legacy-peer-deps
+npm i dotenv

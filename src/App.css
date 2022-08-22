@@ -1,19 +1,44 @@
-.App {
-  text-align: center;
+
+
+.AppBar{
+  display: flex;
+  flex: 4;
+  border:1px solid gray;
+  border-radius: 15px;  
+  margin: 30px, 0px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  color: rgba(0,183,255,1)
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.img{
+  height: 60px;
+  width: 60px;
+  margin-left: 15px;
+
+}
+
+.GridName{
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -34,5 +59,4 @@
   }
   to {
     transform: rotate(360deg);
-  }
-}
+  } */
