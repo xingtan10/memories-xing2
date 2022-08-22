@@ -55,7 +55,7 @@ const Home = () => {
   };
 
   const searchPost = () => {
-    console.log("searchPost");
+    console.log("searchPost1");
     if (search.trim() || tags) {
       //dispatch() fetch search post
       dispatch(getPostsBySearch({ search, tags: tags.join(",") }));
